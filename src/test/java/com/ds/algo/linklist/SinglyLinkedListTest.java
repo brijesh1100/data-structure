@@ -10,7 +10,7 @@ public class SinglyLinkedListTest {
 		list.add(5);
 		list.add(7);
 		list.add(4);
-		System.out.println("done");
+		list.display();
 	}
 
 }

@@ -59,4 +59,22 @@ public class SinglyLinkedList {
 			}
 		}
 	}
+	public void display(){
+		if(size==0){
+			System.out.println("empty");
+			return;
+		}
+		if(head.getNext()==null){
+			System.out.println(head.getData());
+			return;
+		}
+		Node ptr=head;
+		System.out.println(head.getData()+"->");
+		ptr=head.getNext();
+		while (ptr.getNext()!=null) {
+			System.out.println(ptr.getData()+"->");
+			ptr=ptr.getNext();
+		}
+		System.out.println(ptr.getData());
+	}
 }
