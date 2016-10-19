@@ -1,10 +1,13 @@
 package com.ds.algo.linklist;
 
-public class Node implements Comparable<Integer>{
+/**
+ * Single LinkList Node data structure
+ * */
+public class SLNode implements Comparable<Integer>{
 	Integer data;
-	Node next;
+	SLNode next;
 	
-	Node(int data, Node node){
+	SLNode(int data, SLNode node){
 		this.data=data;
 		next=node;
 	}
@@ -16,11 +19,11 @@ public class Node implements Comparable<Integer>{
 		this.data = data;
 	}
 
-	public Node getNext() {
+	public SLNode getNext() {
 		return next;
 	}
 
-	public void setNext(Node next) {
+	public void setNext(SLNode next) {
 		this.next = next;
 	}
 
