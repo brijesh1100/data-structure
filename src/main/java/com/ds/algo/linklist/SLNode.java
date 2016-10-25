@@ -3,14 +3,15 @@ package com.ds.algo.linklist;
 /**
  * Single LinkList Node data structure
  * */
-public class SLNode implements Comparable<Integer>{
+public class SLNode implements Comparable<Integer> {
 	Integer data;
 	SLNode next;
-	
-	SLNode(int data, SLNode node){
-		this.data=data;
-		next=node;
+
+	SLNode(int data, SLNode node) {
+		this.data = data;
+		next = node;
 	}
+
 	public Integer getData() {
 		return data;
 	}
@@ -29,9 +30,9 @@ public class SLNode implements Comparable<Integer>{
 
 	@Override
 	public int compareTo(Integer val) {
-		if(val==this.data){
+		if (val == this.data) {
 			return 0;
-		}else{
+		} else {
 			return 1;
 		}
 	}

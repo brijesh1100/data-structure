@@ -20,12 +20,16 @@ public class SinglyCircularLinkedList {
 		}
 	}
 	public void display(){
+		if(size==0){
+			System.out.println("empty");
+			return;
+		}
 		SLNode current = head;
 		boolean arrow=false;
 		do {
 			System.out.print((arrow)?"--> |"+current.data+"|": "|"+current.data+"|");
-			arrow=true;
-			current=current.next;
+			arrow = true;
+			current = current.next;
 		} while (current!=head);
 	}
 	public void size(){
