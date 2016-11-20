@@ -87,4 +87,32 @@ public class SinglyLinkedList {
 			current = current.next;
 		} while (current != null);
 	}
+
+	public SLNode deleteAtFirst() {
+		if (head == null) {
+			return null;
+		} else {
+			SLNode current=head;
+			head=head.next;
+			return current;
+		}
+	}
+
+	public SLNode find(int data) {
+		if (head == null) {
+			return null;
+		}
+		if (head.data == data) {
+			return head;
+		}
+
+		SLNode current = head;
+		do {
+			current = current.next;
+			if (current.data == data) {
+				return current;
+			}
+		} while (current != null);
+		return null;
+	}
 }
