@@ -1,5 +1,10 @@
 package com.ds.algo.tree;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class BinaryTree {
 	Node root;
 
@@ -80,7 +85,48 @@ public class BinaryTree {
 			return true;
 		return false;
 	}
-
+	
+	public void levelOrderTraversal(Node root){
+		if(root==null){
+			return;
+		}
+		Queue<Node> queue = new LinkedList<Node>();
+		queue.add(root);
+		while (!queue.isEmpty()) {
+			root=queue.poll();
+			System.out.println(root.data);
+			if(root.left!=null){
+				queue.add(root.left);
+			}
+			if(root.right!=null){
+				queue.add(root.right);
+			}
+		}
+	}
+	// Level order traversal in reverse order also known as bottom up traversal
+	public void levelOrderReverseTraversal(Node root) {
+		if(root==null){
+			return;
+		}
+		Queue<Node> queue = new LinkedList<Node>();
+		Stack<Node> stack = new Stack<Node>();
+		queue.add(root);
+		while (!queue.isEmpty()) {
+			root=queue.poll();
+			stack.push(root);
+			if(root.right!=null){
+				queue.add(root.right);
+			}
+			if(root.left!=null){
+				queue.add(root.left);
+			}
+			
+		}
+		Iterator<Node> it = stack.iterator();
+		while (it.hasNext()) {
+			System.out.println(stack.pop().data);
+		}
+	}
 	public static void main(String[] args) {
 		BinaryTree tree = new BinaryTree();
 		tree.root = new Node(30);
@@ -94,5 +140,10 @@ public class BinaryTree {
 		tree.root.right.right.left.right=new Node(45);
 		System.out.println("Level Of Tree: "+tree.getLevelOfTree());
 		System.out.println("Height Of Tree: "+tree.getHeight());
+		tree.levelOrderTraversal(tree.root);
+		System.out.println("\n");
+		tree.levelOrderReverseTraversal(tree.root);
 	}
+
+
 }
