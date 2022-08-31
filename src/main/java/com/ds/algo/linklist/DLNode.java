@@ -36,7 +36,6 @@ public class DLNode implements Comparable<Integer>{
 		this.prev = prev;
 	}
 
-	@Override
 	public int compareTo(Integer val) {
 		if (val == this.data) {
 			return 0;

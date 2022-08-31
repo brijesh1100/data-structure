@@ -28,7 +28,6 @@ public class SLNode implements Comparable<Integer> {
 		this.next = next;
 	}
 
-	@Override
 	public int compareTo(Integer val) {
 		if (val == this.data) {
 			return 0;
