@@ -1,4 +1,4 @@
-package com.ds.algo.dp;
+package com.ds.algo.dp.knapsack;
 
 /**
  * Recursion + Memoization = Dynamic Programming, you do not need to write Top-down approach

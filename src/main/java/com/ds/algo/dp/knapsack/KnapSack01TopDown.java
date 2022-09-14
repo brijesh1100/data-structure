@@ -1,4 +1,4 @@
-package com.ds.algo.dp;
+package com.ds.algo.dp.knapsack;
 
 public class KnapSack01TopDown {
 //	This I initialize size needs to change n+1, W+1

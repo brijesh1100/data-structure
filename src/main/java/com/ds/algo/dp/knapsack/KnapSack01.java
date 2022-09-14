@@ -1,4 +1,4 @@
-package com.ds.algo.dp;
+package com.ds.algo.dp.knapsack;
 
 /**
  * This code is based on pure recursion.

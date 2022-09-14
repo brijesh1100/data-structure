@@ -1,4 +1,4 @@
-package com.ds.algo.dp;
+package com.ds.algo.dp.knapsack;
 
 /**
  * Minimum number of jumps to reach end Given an array of integers where each
