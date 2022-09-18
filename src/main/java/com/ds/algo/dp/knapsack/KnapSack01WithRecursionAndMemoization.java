@@ -24,8 +24,8 @@ public class KnapSack01WithRecursionAndMemoization {
 			}
 		}
 		System.out.println(mem_t[0][1]);
-
-		System.out.println(knapsack(wt, val, W, N));
+		int result = knapsack(wt, val, W, N);
+		System.out.println(result);
 	}
 
 	/**
