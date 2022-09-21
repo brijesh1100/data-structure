@@ -38,8 +38,9 @@ public class SubSetSumProblem {
 	}
 
 	public static void main(String[] args) {
-		int set[] = { 3, 34, 4, 12 };
-		int sum = 7;
+//		int set[] = { 3, 34, 4, 12 };
+		int set[] = { 1,6,5,11 };
+		int sum = 3;
 		W = sum;
 		n = set.length;
 		mem_t = new int[n + 1][W + 1];
