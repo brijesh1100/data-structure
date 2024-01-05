@@ -16,8 +16,8 @@ public class CountOfSubsetSumTopDown {
 	public static int mem_t[][];
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 2, 3, 3 };
-		int W = 6;
+		int arr[] = { 1, 2, 3, 1,2 };
+		int W = 5;
 		int n = arr.length;
 		mem_t = new int[n + 1][W + 1];
 		initializeTable(mem_t, n, W);
