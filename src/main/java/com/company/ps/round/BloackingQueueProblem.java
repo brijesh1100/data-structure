@@ -1,4 +1,4 @@
-package com.mt;
+package com.company.ps.round;
 
 import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.LinkedBlockingDeque;
