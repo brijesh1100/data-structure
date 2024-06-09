@@ -30,7 +30,7 @@ public class AIDashClazz {
 //	pass 8,1,1
 	
 	public static void main(String[] args) {
-		int[] pass = {3,1,1};
+		int[] pass = {8,1,1};
 		int N=7;
 		int K = 3;
 //		We need not to remove the layout just index capture

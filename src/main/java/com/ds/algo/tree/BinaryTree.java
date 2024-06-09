@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
+import java.util.concurrent.Semaphore;
 
 public class BinaryTree {
 	Node root;
@@ -129,7 +130,7 @@ public class BinaryTree {
 			System.out.print(stack.pop().data+ " ");
 		}
 	}
-
+	
 	public int timeToBurnTree(Node node) {
 		int levelDep = 0;
 		if (node == null) {

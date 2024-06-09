@@ -50,7 +50,7 @@ public class SinglyLinkedList {
 			head = node;
 			tail = head;
 		} else {
-			tail.setNext(node);
+			tail.next=node;
 			tail = node;
 		}
 	}
