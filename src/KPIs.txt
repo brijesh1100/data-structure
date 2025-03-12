@@ -2,7 +2,7 @@ Business KPIs
 AI Innovation Pipeline
 
 KPI: Launch ≥5 new AI initiatives annually that introduce innovative solutions or major process improvements.
-Impact: Expands QDB’s competitive edge by continuously exploring new ways to improve services, reduce costs, or generate revenue.
+Impact: Expands company competitive edge by continuously exploring new ways to improve services, reduce costs, or generate revenue.
 Decision-Making Efficiency
 
 KPI: Reduce key decision-making time by 25% and maintain ≥85% predictive accuracy in relevant models.
@@ -22,7 +22,7 @@ Impact: Ensures rapid rollout of new AI solutions, fostering agility and respons
 Platform KPIs
 Data & Infrastructure Readiness
 
-KPI: Increase QDB’s Data Maturity (or Digital Acceleration) Score from X to Y within 12 months.
+KPI: Increase company’s Data Maturity (or Digital Acceleration) Score from X to Y within 12 months.
 Impact: Establishes a reliable, high-quality data foundation that underpins all AI initiatives, reducing rework and improving model performance.
 Scalability & Performance
 
@@ -48,7 +48,7 @@ How to Use These KPIs
 Ownership & Accountability: Assign each KPI to a specific team or role (e.g., Data Engineering, AI Governance, Business Unit Leads) to drive accountability.
 Dashboard Monitoring: Implement a central analytics dashboard (Power BI, Tableau) to provide real-time or monthly visibility into each KPI’s status.
 Regular Reviews: Schedule quarterly or biannual check-ins with stakeholders to evaluate progress, celebrate milestones, and adjust targets as needed.
-By covering Business outcomes (innovation, decision-making, ROI, adoption, efficiency) alongside Platform foundations (data readiness, scalability, reusability, integration, automation, risk compliance), these 11 KPIs offer a holistic view of AI’s impact and readiness across QDB.
+By covering Business outcomes (innovation, decision-making, ROI, adoption, efficiency) alongside Platform foundations (data readiness, scalability, reusability, integration, automation, risk compliance), these 11 KPIs offer a holistic view of AI’s impact and readiness across company.
 
 You said:
 Can we add anything in strategy as a category business and strategy is overlapping but can Categories strategy and platform may be you can refine this based on strategy little bit. because this may be showcase to CEO and Executive director
